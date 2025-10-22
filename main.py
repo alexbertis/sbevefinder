@@ -21,10 +21,9 @@ def find(text: str, subtext: str):
     return True, result_text
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     text = input('Enter the text where you want to find the sub-text:\n')
-    subtext = input('Enter the subtext to find:\n')
+    subtext = input('Enter the sub-text to find:\n')
     success, result = find(text, subtext)
     if success:
         print("Sbeve! Found a match:")
